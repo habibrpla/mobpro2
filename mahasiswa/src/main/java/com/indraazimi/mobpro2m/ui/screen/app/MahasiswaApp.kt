@@ -28,7 +28,7 @@ fun MahasiswaApp() {
     if (userFlow == null) {
         Scaffold { innerPadding ->
             WelcomeScreen(
-                appLogo = R.mipmap.ic_launcher,
+                appLogo = R.drawable.download,
                 appName = R.string.app_name,
                 modifier = Modifier.padding(innerPadding)
             )
